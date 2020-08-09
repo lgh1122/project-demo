@@ -1,0 +1,30 @@
+2020-05-12 17:55:33,857 INFO [dump-all-ok] storage-service-dev.yml+DEFAULT_GROUP, 1589276512818, length=410, md5=48fcf6fb3132ae35d4e0aac1e0b79082
+
+2020-05-12 17:55:33,858 INFO [dump-all-ok] application-seata.yml+DEFAULT_GROUP, 1589275945590, length=2286, md5=7157d186f96771366d8b47ff73edaf1f
+
+2020-05-12 18:09:16,166 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1582523901000, length=1682, md5=7c2af6138c61610e342246c3e62bea02
+
+2020-05-12 18:09:16,168 INFO [dump-all-ok] pigx-auth-dev.yml+DEFAULT_GROUP, 1566901444000, length=911, md5=a20aba0a3128a2bf7abc857c1803ba76
+
+2020-05-12 18:09:16,169 INFO [dump-all-ok] pigx-codegen-dev.yml+DEFAULT_GROUP, 1566901458000, length=832, md5=760cf56fc1d78d50c1170b29e2f96493
+
+2020-05-12 18:09:16,173 INFO [dump-all-ok] pigx-daemon-elastic-job-dev.yml+DEFAULT_GROUP, 1586958997000, length=785, md5=af2d24afd75cbd73c3bbc8297ca65bc9
+
+2020-05-12 18:09:16,174 INFO [dump-all-ok] pigx-gateway-dev.yml+DEFAULT_GROUP, 1571562462000, length=177, md5=24403a5b205b1e9d320078e309584bbc
+
+2020-05-12 18:09:16,176 INFO [dump-all-ok] pigx-monitor-dev.yml+DEFAULT_GROUP, 1577790240000, length=362, md5=7925a0c734460526262319b6a189e39d
+
+2020-05-12 18:09:16,178 INFO [dump-all-ok] pigx-upms-biz-dev.yml+DEFAULT_GROUP, 1572582158000, length=1598, md5=c7f0859f675399e4cfe2082c0da53b1c
+
+2020-05-12 18:09:16,179 INFO [dump-all-ok] pigx-tx-manager-dev.yml+DEFAULT_GROUP, 1555527243000, length=504, md5=885f5c125f2df7a08692929ccce154be
+
+2020-05-12 18:09:16,180 INFO [dump-all-ok] pigx-daemon-quartz-dev.yml+DEFAULT_GROUP, 1566901541000, length=1498, md5=e3d62728d5722bad107b2087980ed120
+
+2020-05-12 18:09:16,182 INFO [dump-all-ok] pigx-pay-platform-dev.yml+DEFAULT_GROUP, 1566901561000, length=1174, md5=faa4db8eba6827c1f93074b55b62eb81
+
+2020-05-12 18:09:16,184 INFO [dump-all-ok] pigx-oa-platform-dev.yml+DEFAULT_GROUP, 1571215132000, length=1022, md5=1e76973cb1a0bc17c0e0519366cef267
+
+2020-05-12 18:12:10,436 INFO [dump-all-ok] storage-service-dev.yml+DEFAULT_GROUP, 1589276512818, length=410, md5=48fcf6fb3132ae35d4e0aac1e0b79082
+
+2020-05-12 18:12:10,437 INFO [dump-all-ok] application-seata.yml+DEFAULT_GROUP, 1589275945590, length=2286, md5=7157d186f96771366d8b47ff73edaf1f
+

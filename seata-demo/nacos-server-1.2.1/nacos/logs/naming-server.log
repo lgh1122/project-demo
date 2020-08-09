@@ -1,0 +1,104 @@
+2020-05-14 10:44:47,848 INFO listen for service meta change
+
+2020-05-14 10:44:51,582 INFO [SERVER-INIT] got port: 8848
+
+2020-05-14 10:44:51,582 INFO [SERVER-INIT] got path: /nacos
+
+2020-05-14 10:44:51,858 INFO creating empty service public:seata-demo@@storage-service
+
+2020-05-14 10:44:51,952 INFO [NEW-SERVICE] {"appName":"","checksum":"b4bb7cd1f506287e625cde499c48acbb","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"seata-demo","ipDeleteTimeout":30000,"lastModifiedMillis":1589424291867,"metadata":{},"name":"seata-demo@@storage-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-05-14 10:44:51,992 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424291857,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8281,"serviceName":"seata-demo@@storage-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-05-14 10:44:52,009 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##seata-demo@@storage-service, value: {"instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.50.39#8281#DEFAULT#seata-demo@@storage-service","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424291857,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8281,"serviceName":"seata-demo@@storage-service","tenant":"","weight":1.0}]}
+
+2020-05-14 10:44:53,427 INFO receive config info: unknown#192.168.50.39:8848#1589424293427#4
+
+
+2020-05-14 10:44:53,430 ERROR [SERVER-STATUS] Exception while sending server status
+
+java.lang.IllegalArgumentException: server: 192.168.50.39:8848 is not in serverlist
+	at com.alibaba.nacos.naming.cluster.ServerListManager.onReceiveServerStatus(ServerListManager.java:198)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerStatusReporter.run(ServerListManager.java:345)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2020-05-14 10:44:54,529 INFO creating empty service public:DEFAULT_GROUP@@account-service
+
+2020-05-14 10:44:54,530 INFO [NEW-SERVICE] {"appName":"","checksum":"7b10d728fbbfec9f588e004ca9544f2","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1589424294529,"metadata":{},"name":"DEFAULT_GROUP@@account-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-05-14 10:44:54,530 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424294529,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8283,"serviceName":"DEFAULT_GROUP@@account-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-05-14 10:44:54,530 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@account-service, value: {"instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.50.39#8283#DEFAULT#DEFAULT_GROUP@@account-service","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424294529,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8283,"serviceName":"DEFAULT_GROUP@@account-service","tenant":"","weight":1.0}]}
+
+2020-05-14 10:44:55,432 INFO receive config info: unknown#192.168.50.39:8848#1589424295432#4
+
+
+2020-05-14 10:44:55,487 INFO creating empty service public:DEFAULT_GROUP@@seata-server
+
+2020-05-14 10:44:55,488 INFO [NEW-SERVICE] {"appName":"","checksum":"c102e19dc8751c5f5e7319b67f83e4ac","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1589424295487,"metadata":{},"name":"DEFAULT_GROUP@@seata-server","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-05-14 10:44:55,488 WARN cluster: seata-server not found, ip: {"app":"unknown","clusterName":"seata-server","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.0.75.1#8091#seata-server#DEFAULT_GROUP@@seata-server","instanceIdGenerator":"simple","ip":"10.0.75.1","ipDeleteTimeout":30000,"lastBeat":1589424295486,"marked":false,"metadata":{},"port":8091,"serviceName":"DEFAULT_GROUP@@seata-server","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-05-14 10:44:55,488 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-server, value: {"instanceList":[{"app":"unknown","clusterName":"seata-server","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.0.75.1#8091#seata-server#DEFAULT_GROUP@@seata-server","instanceIdGenerator":"simple","ip":"10.0.75.1","ipDeleteTimeout":30000,"lastBeat":1589424295486,"marked":false,"metadata":{},"port":8091,"serviceName":"DEFAULT_GROUP@@seata-server","tenant":"","weight":1.0}]}
+
+2020-05-14 10:44:55,685 INFO creating empty service public:DEFAULT_GROUP@@business-service
+
+2020-05-14 10:44:55,685 INFO [NEW-SERVICE] {"appName":"","checksum":"3d0c4e189be740877faf0eb5ad6b1aa8","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1589424295685,"metadata":{},"name":"DEFAULT_GROUP@@business-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-05-14 10:44:55,685 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424295684,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8284,"serviceName":"DEFAULT_GROUP@@business-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-05-14 10:44:55,685 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@business-service, value: {"instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.50.39#8284#DEFAULT#DEFAULT_GROUP@@business-service","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424295684,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8284,"serviceName":"DEFAULT_GROUP@@business-service","tenant":"","weight":1.0}]}
+
+2020-05-14 10:44:55,926 INFO creating empty service public:DEFAULT_GROUP@@order-service
+
+2020-05-14 10:44:55,927 INFO [NEW-SERVICE] {"appName":"","checksum":"43e6b315d81420e63a952f37b2a0574c","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1589424295926,"metadata":{},"name":"DEFAULT_GROUP@@order-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-05-14 10:44:55,927 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424295926,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8282,"serviceName":"DEFAULT_GROUP@@order-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-05-14 10:44:55,927 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@order-service, value: {"instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.50.39#8282#DEFAULT#DEFAULT_GROUP@@order-service","instanceIdGenerator":"","ip":"192.168.50.39","ipDeleteTimeout":30000,"lastBeat":1589424295926,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8282,"serviceName":"DEFAULT_GROUP@@order-service","tenant":"","weight":1.0}]}
+
+2020-05-14 10:44:57,433 INFO [NACOS-DISTRO] healthy server list changed, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.50.39","key":"192.168.50.39:8848","lastRefTime":1589424295432,"lastRefTimeStr":"2020-05-14 10:44:55","servePort":8848,"site":"unknown","weight":4}]
+
+2020-05-14 10:44:57,433 INFO [NACOS-DISTRO] disable health check for 60000 ms from now on.
+
+2020-05-14 10:44:57,433 INFO receive config info: unknown#192.168.50.39:8848#1589424297433#4
+
+
+2020-05-14 10:44:59,434 INFO receive config info: unknown#192.168.50.39:8848#1589424299434#4
+
+
+2020-05-14 10:45:01,437 INFO receive config info: unknown#192.168.50.39:8848#1589424301437#4
+
+
+2020-05-14 10:45:03,439 INFO receive config info: unknown#192.168.50.39:8848#1589424303439#4
+
+
+2020-05-14 10:45:05,440 INFO receive config info: unknown#192.168.50.39:8848#1589424305440#4
+
+
+2020-05-14 10:45:07,441 INFO receive config info: unknown#192.168.50.39:8848#1589424307441#4
+
+
+2020-05-14 10:45:09,447 INFO receive config info: unknown#192.168.50.39:8848#1589424309447#4
+
+
+2020-05-14 10:45:11,450 INFO receive config info: unknown#192.168.50.39:8848#1589424311450#4
+
+
+2020-05-14 10:45:13,451 INFO receive config info: unknown#192.168.50.39:8848#1589424313451#4
+
+
+2020-05-14 10:45:15,453 INFO receive config info: unknown#192.168.50.39:8848#1589424315453#4
+
+
+2020-05-14 10:45:17,453 INFO receive config info: unknown#192.168.50.39:8848#1589424317453#4
+
+
+2020-05-14 10:45:19,454 INFO receive config info: unknown#192.168.50.39:8848#1589424319454#4
+
+

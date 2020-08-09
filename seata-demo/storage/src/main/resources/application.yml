@@ -1,0 +1,35 @@
+#server:
+#  port: 8281
+#spring:
+#  application:
+#    name: storage-service
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#  profiles:
+#    include:
+#      - seata
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/storage?useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    platform: org.hibernate.dialect.MySQL5InnoDBDialect
+##    hikari:
+##      jdbc-url: jdbc:mysql://localhost:3306/storage?useSSL=false&serverTimezone=UTC
+##      username: root
+##      password: root
+##      driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.zaxxer.hikari.HikariDataSource
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#
+##eureka:
+##  instance:
+##    hostname: 127.0.0.1
+##  client:
+##    service-url:
+##      defaultZone: http://${eureka.instance.hostname}:8761/eureka/

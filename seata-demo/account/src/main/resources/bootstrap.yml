@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: account-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        # Nacos地址
+        server-addr: http://localhost:8848
+        # 这里我们获取的yaml格式的配置
+        file-extension: yml
+        # 加载多个配置信息
+        shared-configs:
+          - ${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          - application-seata.yml
+        refresh-enabled: true
+
+
+

@@ -1,0 +1,43 @@
+#db:
+#  one: primary
+#spring:
+#  shardingsphere:
+#    datasource:
+#      names: ${db.one}
+#      primary:
+#        type: com.zaxxer.hikari.HikariDataSource
+#        jdbc-url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${DB_NAME:demo_ds_0}?useUnicode=true&characterEncoding=UTF8&serverTimezone=Hongkong
+#        username: ${MYSQL_USER:root}
+#        password: ${MYSQL_USER:root}
+#        max-active: 16
+#    sharding:
+#      tables:
+#        tb_user_info:
+#          actual-data-nodes: ${db.one}.tb_user_info_$->{0..1}
+#          table-strategy:
+#
+##            inline:
+##              sharding-column: create_date
+##              algorithm-expression: tb_user_info_$->{create_date%2}
+#            #  通过代码实现分表
+##            standard:
+##              sharding-column: create_date
+##              precise-algorithm-class-name: com.lgh.novel.shardingdemo.config.MyPreciseShardingAlgorithm
+#            hint:
+#              algorithmClassName: com.lgh.novel.shardingdemo.config.GoodsHintShardingAlgorithm
+#        t_goods:
+##          4.0.0 版本必须要配置 actual-data-nodes
+#          actual-data-nodes: ${db.one}.t_goods
+#          table-strategy:
+##            inline:
+##              sharding-column: user_id
+##              algorithm-expression: t_goods_$->{user_id}
+##标准分片策略，用于单分片键的场景
+##            standard:
+##              sharding-column: user_id
+##              precise-algorithm-class-name: com.lgh.novel.shardingdemo.config.GoodsPreciseShardingAlgorithm
+#            #complex: 复合分片策略，用于多分片键的场景
+#            #  shardingColumns : 分片列名，多个列以逗号分隔
+#            #  algorithmClassName: 分片算法类名称。该类需使用默认的构造器或者提供无参数的构造器
+#            hint:
+#              algorithmClassName: com.lgh.novel.shardingdemo.config.GoodsHintShardingAlgorithm

@@ -1,0 +1,31 @@
+#spring:
+#  application:
+#    name: business-service
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+##    nacos:
+##      discovery:
+##        server-addr: localhost
+#
+##        username: lza
+##        password: 12
+##        namespace: 41ccb9b0-ba1a-4c37-9a41-85991d439347
+##      config:
+##        server-addr: 192.168.230.1:8849
+##        file-extension: yml
+##        # shared-dataids: application-dev.yml
+##        #context-path: /nacos
+##        username: lza
+##        password: 12
+##        namespace: 41ccb9b0-ba1a-4c37-9a41-85991d439347
+#  profiles:
+#    include:
+#      - seata
+#
+#server:
+#  port: 8284
+#logging:
+#  level:
+#    root: debug

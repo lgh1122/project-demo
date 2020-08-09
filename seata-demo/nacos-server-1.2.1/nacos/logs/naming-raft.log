@@ -1,0 +1,38 @@
+2020-05-14 10:44:45,590 INFO initializing Raft sub-system
+
+2020-05-14 10:44:45,591 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-05-14 10:44:45,599 INFO raft notifier started
+
+2020-05-14 10:44:45,610 INFO cache loaded, datum count: 0, current term: 0
+
+2020-05-14 10:44:45,610 INFO finish to load data from disk, cost: 19 ms.
+
+2020-05-14 10:44:45,417 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-05-14 10:44:45,615 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-05-14 10:44:45,617 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-05-14 10:44:47,835 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-05-14 10:44:47,848 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-05-14 10:44:51,880 INFO add listener: com.alibaba.nacos.naming.iplist.public##seata-demo@@storage-service
+
+2020-05-14 10:44:54,530 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@account-service
+
+2020-05-14 10:44:55,399 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-05-14 10:44:55,399 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-05-14 10:44:55,399 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-05-14 10:44:55,487 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@seata-server
+
+2020-05-14 10:44:55,685 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@business-service
+
+2020-05-14 10:44:55,927 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@order-service
+
+2020-05-14 10:44:57,433 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.50.39","key":"192.168.50.39:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

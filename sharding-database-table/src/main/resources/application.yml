@@ -1,0 +1,24 @@
+server:
+  port: 8956
+spring:
+  application:
+    name: datademo
+  profiles:
+#    active: sharding-databases-tables
+    active: sharding-databases-tables
+#    active: single
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #不加这句则默认为myisam引擎
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    open-in-view: true
+    properties:
+      enable_lazy_load_no_trans: true
+    show-sql: true
+
+
+
+

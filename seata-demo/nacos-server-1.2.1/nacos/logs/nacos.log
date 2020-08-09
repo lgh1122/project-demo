@@ -1,0 +1,14 @@
+2020-05-14 10:44:35,432 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 18556 (D:\workspace\seata-demo\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\workspace\seata-demo\nacos-server-1.2.1\nacos\bin)
+
+2020-05-14 10:44:35,439 INFO The following profiles are active: standalone
+
+2020-05-14 10:44:39,229 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$463443c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-14 10:44:39,390 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-14 10:44:39,408 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@480d3575' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-14 10:44:39,410 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6b08e67a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-14 10:44:39,419 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+

@@ -1,0 +1,27 @@
+server:
+  port: 8281
+spring:
+  application:
+    name: storage-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#        namespace: 9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+      config:
+        # Nacos地址
+        server-addr: http://localhost:8848
+        # 这里我们获取的yaml格式的配置
+        file-extension: yml
+        # 加载多个配置信息
+        shared-configs:
+          # 会默认加载  storage-service-dev.yml storage-service.yml 的文件
+#          - ${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+          - application-seata.${spring.cloud.nacos.config.file-extension}
+        refresh-enabled: true
+#        namespace: 9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+
+

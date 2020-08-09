@@ -1,0 +1,8 @@
+2020-05-14 10:44:48,612 INFO [dump-all-ok] storage-service-dev.yml+DEFAULT_GROUP, 1589276512818, length=410, md5=48fcf6fb3132ae35d4e0aac1e0b79082
+
+2020-05-14 10:44:48,617 INFO [dump-all-ok] application-seata.yml+DEFAULT_GROUP, 1589275945590, length=2286, md5=7157d186f96771366d8b47ff73edaf1f
+
+2020-05-14 10:44:48,619 INFO [dump-all-ok] storage-service.yml+DEFAULT_GROUP, 1589278783945, length=420, md5=c281243226b6467fa1b419efc7e6f7b1
+
+2020-05-14 10:44:48,620 INFO [dump-all-ok] application-seata.yml+DEFAULT_GROUP, 1589278721531, length=2286, md5=7157d186f96771366d8b47ff73edaf1f
+

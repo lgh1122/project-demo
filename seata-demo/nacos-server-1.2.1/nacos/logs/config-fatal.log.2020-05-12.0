@@ -1,0 +1,32 @@
+2020-05-12 13:53:27,307 WARN useAddressServer:true
+
+2020-05-12 13:53:27,428 WARN isQuickStart:false
+
+2020-05-12 14:51:22,187 WARN useAddressServer:true
+
+2020-05-12 14:51:22,284 WARN isQuickStart:false
+
+2020-05-12 15:39:50,497 WARN useAddressServer:true
+
+2020-05-12 15:39:50,791 WARN isQuickStart:false
+
+2020-05-12 17:53:45,575 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-05-12 17:53:47,495 WARN useAddressServer:true
+
+2020-05-12 17:53:47,592 WARN isQuickStart:false
+
+2020-05-12 17:55:33,592 WARN useAddressServer:true
+
+2020-05-12 17:55:33,684 WARN isQuickStart:false
+
+2020-05-12 18:09:13,704 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-05-12 18:09:15,933 WARN useAddressServer:true
+
+2020-05-12 18:09:16,072 WARN isQuickStart:false
+
+2020-05-12 18:12:10,184 WARN useAddressServer:true
+
+2020-05-12 18:12:10,296 WARN isQuickStart:false
+

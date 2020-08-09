@@ -1,0 +1,990 @@
+2020-05-12 13:53:19,161 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 26024 (C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 13:53:19,163 INFO The following profiles are active: standalone
+
+2020-05-12 13:53:21,607 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$53c747c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 13:53:21,705 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 13:53:21,709 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3de8f619' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 13:53:21,712 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$789bea72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 13:53:21,718 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 13:53:22,859 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 13:53:22,896 INFO Starting service [Tomcat]
+
+2020-05-12 13:53:22,896 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 13:53:22,908 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 13:53:23,371 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 13:53:23,371 INFO Root WebApplicationContext: initialization completed in 4157 ms
+
+2020-05-12 13:53:26,089 INFO Reflections took 60 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 13:53:26,148 INFO Reflections took 8 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 13:53:26,160 INFO Reflections took 7 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 13:53:27,624 INFO Use Mysql as the driver
+
+2020-05-12 13:53:28,556 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 13:53:28,903 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 13:53:29,425 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 13:53:29,487 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5db4c359, org.springframework.security.web.context.SecurityContextPersistenceFilter@72e34f77, org.springframework.security.web.header.HeaderWriterFilter@293bb8a5, org.springframework.security.web.csrf.CsrfFilter@54361a9, org.springframework.security.web.authentication.logout.LogoutFilter@33617539, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@389adf1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@290b1b2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@209775a9, org.springframework.security.web.session.SessionManagementFilter@6fa590ba, org.springframework.security.web.access.ExceptionTranslationFilter@5217f3d0]
+
+2020-05-12 13:53:29,645 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 13:53:29,684 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 13:53:29,906 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 13:53:29,923 INFO Started Nacos in 14.649 seconds (JVM running for 15.486)
+
+2020-05-12 13:53:29,924 INFO Nacos logs files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 13:53:29,927 INFO Nacos conf files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 13:53:29,933 INFO Nacos data files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 13:53:29,938 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 13:53:30,149 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 13:53:30,149 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 13:53:30,164 INFO Completed initialization in 14 ms
+
+2020-05-12 14:03:27,366 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:03:27,379 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:03:27,613 WARN clearConfigHistory start
+
+2020-05-12 14:13:27,381 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:13:27,382 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:13:27,645 WARN clearConfigHistory start
+
+2020-05-12 14:23:27,384 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:23:27,385 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:23:27,651 WARN clearConfigHistory start
+
+2020-05-12 14:33:27,386 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:33:27,388 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:33:27,652 WARN clearConfigHistory start
+
+2020-05-12 14:51:14,773 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 29940 (C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 14:51:14,775 INFO The following profiles are active: standalone
+
+2020-05-12 14:51:17,166 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d2a494f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 14:51:17,278 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 14:51:17,281 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2de56eb2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 14:51:17,285 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f77937a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 14:51:17,294 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 14:51:18,431 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 14:51:18,468 INFO Starting service [Tomcat]
+
+2020-05-12 14:51:18,469 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 14:51:18,483 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 14:51:18,580 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 14:51:18,581 INFO Root WebApplicationContext: initialization completed in 3752 ms
+
+2020-05-12 14:51:21,073 INFO Reflections took 63 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 14:51:21,132 INFO Reflections took 9 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 14:51:21,147 INFO Reflections took 7 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 14:51:22,423 INFO Use Mysql as the driver
+
+2020-05-12 14:51:23,175 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 14:51:23,399 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 14:51:23,815 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 14:51:23,867 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2783717b, org.springframework.security.web.context.SecurityContextPersistenceFilter@485a3466, org.springframework.security.web.header.HeaderWriterFilter@546ccad7, org.springframework.security.web.csrf.CsrfFilter@3a62c01e, org.springframework.security.web.authentication.logout.LogoutFilter@c260bdc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b43529a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ad10c1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76f7d241, org.springframework.security.web.session.SessionManagementFilter@1623134f, org.springframework.security.web.access.ExceptionTranslationFilter@5ce33a58]
+
+2020-05-12 14:51:23,986 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 14:51:24,028 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 14:51:24,162 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 14:51:24,170 INFO Started Nacos in 13.284 seconds (JVM running for 14.024)
+
+2020-05-12 14:51:24,170 INFO Nacos logs files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 14:51:24,170 INFO Nacos conf files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 14:51:24,171 INFO Nacos data files: C:\Users\17519\Documents\Tencent Files\1464070939\FileRecv\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 14:51:24,173 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 14:51:24,352 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 14:51:24,352 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 14:51:24,366 INFO Completed initialization in 14 ms
+
+2020-05-12 15:01:22,223 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:01:22,239 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:01:22,414 WARN clearConfigHistory start
+
+2020-05-12 15:11:22,241 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:11:22,242 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:11:22,450 WARN clearConfigHistory start
+
+2020-05-12 15:21:22,245 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:21:22,248 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:21:22,454 WARN clearConfigHistory start
+
+2020-05-12 15:31:22,250 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:31:22,250 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:31:22,456 WARN clearConfigHistory start
+
+2020-05-12 15:39:27,546 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 27416 (D:\software\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\software\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 15:39:27,550 INFO The following profiles are active: standalone
+
+2020-05-12 15:39:34,962 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$f80e4677] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 15:39:35,115 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 15:39:35,119 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6cb107fd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 15:39:35,121 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1ce2e929] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 15:39:35,129 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 15:39:37,508 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 15:39:37,641 INFO Starting service [Tomcat]
+
+2020-05-12 15:39:37,644 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 15:39:37,698 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 15:39:38,677 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 15:39:38,678 INFO Root WebApplicationContext: initialization completed in 11017 ms
+
+2020-05-12 15:39:47,215 INFO Reflections took 150 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 15:39:47,318 INFO Reflections took 13 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 15:39:47,338 INFO Reflections took 12 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 15:39:51,241 INFO Use Mysql as the driver
+
+2020-05-12 15:39:53,215 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 15:39:54,011 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 15:39:55,484 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 15:39:55,626 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ad10c1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@546ccad7, org.springframework.security.web.header.HeaderWriterFilter@3a62c01e, org.springframework.security.web.csrf.CsrfFilter@a8c1f44, org.springframework.security.web.authentication.logout.LogoutFilter@4264b240, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1623134f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25748410, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bb75258, org.springframework.security.web.session.SessionManagementFilter@5ce33a58, org.springframework.security.web.access.ExceptionTranslationFilter@3c435123]
+
+2020-05-12 15:39:56,034 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 15:39:56,156 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 15:39:56,640 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 15:39:56,662 INFO Started Nacos in 32.911 seconds (JVM running for 34.47)
+
+2020-05-12 15:39:56,662 INFO Nacos logs files: D:\software\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 15:39:56,668 INFO Nacos conf files: D:\software\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 15:39:56,669 INFO Nacos data files: D:\software\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 15:39:56,671 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 15:39:57,173 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 15:39:57,175 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 15:39:57,241 INFO Completed initialization in 49 ms
+
+2020-05-12 15:49:50,576 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:49:50,630 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:49:51,216 WARN clearConfigHistory start
+
+2020-05-12 15:59:50,632 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:59:50,632 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:59:51,227 WARN clearConfigHistory start
+
+2020-05-12 16:09:50,633 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:09:50,634 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:09:51,229 WARN clearConfigHistory start
+
+2020-05-12 16:19:50,639 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:19:50,641 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:19:51,231 WARN clearConfigHistory start
+
+2020-05-12 16:29:50,642 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:29:50,642 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:29:51,232 WARN clearConfigHistory start
+
+2020-05-12 16:39:50,643 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:39:50,644 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:39:51,233 WARN clearConfigHistory start
+
+2020-05-12 16:49:50,645 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:49:50,646 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:49:51,236 WARN clearConfigHistory start
+
+2020-05-12 16:59:50,647 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:59:50,647 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:59:51,237 WARN clearConfigHistory start
+
+2020-05-12 17:09:50,649 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:09:50,650 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:09:51,238 WARN clearConfigHistory start
+
+2020-05-12 17:19:50,652 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:19:50,653 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:19:51,240 WARN clearConfigHistory start
+
+2020-05-12 17:29:50,653 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:29:50,654 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:29:51,242 WARN clearConfigHistory start
+
+2020-05-12 17:36:16,457 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:36:16,458 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:36:16,656 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:36:16,656 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:36:46,164 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:36:46,165 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:37:15,670 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:37:15,670 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:37:45,172 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:37:45,172 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:38:14,678 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:38:14,678 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:38:44,181 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:38:44,182 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:39:13,685 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:39:13,685 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:39:43,188 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:39:43,188 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:39:50,656 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:39:50,656 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:39:51,245 WARN clearConfigHistory start
+
+2020-05-12 17:40:12,692 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:40:12,692 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:40:42,195 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:40:42,195 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:41:11,699 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:41:11,699 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:41:41,204 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:41:41,204 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:42:10,709 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:42:10,709 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:42:40,216 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:42:40,216 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:43:09,721 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:43:09,721 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:43:39,225 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:43:39,225 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:44:08,729 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:44:08,729 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:44:38,231 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:44:38,232 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:45:07,737 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:45:07,737 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:45:37,240 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:45:37,240 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:06,743 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:06,743 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:40,927 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:40,927 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:41,125 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:46:41,125 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:47:10,630 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:47:10,631 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:47:40,133 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:47:40,133 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:48:09,636 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:48:09,636 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:48:39,139 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:48:39,139 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:49:08,644 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:49:08,644 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:49:38,145 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:49:38,145 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:49:50,657 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:49:50,657 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:49:51,247 WARN clearConfigHistory start
+
+2020-05-12 17:50:07,651 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:50:07,651 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:50:37,155 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:50:37,155 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:51:06,658 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:51:06,658 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:51:36,160 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:51:36,160 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:52:05,662 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:52:05,662 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:52:35,165 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:52:35,166 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:53:04,669 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:53:04,669 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:53:41,266 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 4956 (D:\software\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\software\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 17:53:41,269 INFO The following profiles are active: standalone
+
+2020-05-12 17:53:43,534 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$53c747c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:53:43,635 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:53:43,638 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2ab4bc72' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:53:43,639 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$789bea72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:53:43,646 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:53:44,682 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 17:53:44,715 INFO Starting service [Tomcat]
+
+2020-05-12 17:53:44,715 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 17:53:44,730 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 17:53:44,830 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 17:53:44,831 INFO Root WebApplicationContext: initialization completed in 3497 ms
+
+2020-05-12 17:53:45,160 INFO Use Mysql as the driver
+
+2020-05-12 17:53:46,320 INFO Reflections took 49 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 17:53:46,373 INFO Reflections took 7 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 17:53:46,383 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 17:53:48,059 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 17:53:48,285 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 17:53:48,625 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 17:53:48,664 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c4d27c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a3c96e3, org.springframework.security.web.header.HeaderWriterFilter@3e5499cc, org.springframework.security.web.csrf.CsrfFilter@201b6b6f, org.springframework.security.web.authentication.logout.LogoutFilter@79145d5a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b444398, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a776e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6821ea29, org.springframework.security.web.session.SessionManagementFilter@b78a709, org.springframework.security.web.access.ExceptionTranslationFilter@183e8023]
+
+2020-05-12 17:53:48,773 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 17:53:48,812 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 17:53:48,938 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 17:53:48,946 INFO Started Nacos in 9.255 seconds (JVM running for 9.89)
+
+2020-05-12 17:53:48,946 INFO Nacos logs files: D:\software\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 17:53:48,946 INFO Nacos conf files: D:\software\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 17:53:48,947 INFO Nacos data files: D:\software\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 17:53:48,948 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 17:53:49,230 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 17:53:49,231 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 17:53:49,243 INFO Completed initialization in 12 ms
+
+2020-05-12 17:53:49,326 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:53:49,328 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:54:18,841 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:54:18,841 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:54:48,346 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:54:48,346 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:55:17,849 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:55:17,849 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:55:25,755 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 18128 (D:\software\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\software\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 17:55:25,758 INFO The following profiles are active: standalone
+
+2020-05-12 17:55:28,011 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$43dbdb21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:55:28,125 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:55:28,131 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4007f65e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:55:28,135 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$68b07dd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:55:28,147 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 17:55:29,516 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 17:55:29,557 INFO Starting service [Tomcat]
+
+2020-05-12 17:55:29,557 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 17:55:29,572 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 17:55:29,706 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 17:55:29,706 INFO Root WebApplicationContext: initialization completed in 3892 ms
+
+2020-05-12 17:55:32,384 INFO Reflections took 59 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 17:55:32,447 INFO Reflections took 9 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 17:55:32,463 INFO Reflections took 8 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 17:55:33,913 INFO Use Mysql as the driver
+
+2020-05-12 17:55:34,657 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 17:55:34,903 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 17:55:35,311 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 17:55:35,360 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3829ac1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b04476e, org.springframework.security.web.header.HeaderWriterFilter@485a3466, org.springframework.security.web.csrf.CsrfFilter@546ccad7, org.springframework.security.web.authentication.logout.LogoutFilter@4a335fa8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bb75258, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2783717b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4baf352a, org.springframework.security.web.session.SessionManagementFilter@2b43529a, org.springframework.security.web.access.ExceptionTranslationFilter@1623134f]
+
+2020-05-12 17:55:35,487 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 17:55:35,528 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 17:55:35,671 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 17:55:35,680 INFO Started Nacos in 11.467 seconds (JVM running for 12.102)
+
+2020-05-12 17:55:35,680 INFO Nacos logs files: D:\software\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 17:55:35,680 INFO Nacos conf files: D:\software\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 17:55:35,681 INFO Nacos data files: D:\software\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 17:55:35,684 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 17:55:35,854 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 17:55:35,854 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 17:55:35,869 INFO Completed initialization in 15 ms
+
+2020-05-12 17:55:36,143 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:55:36,144 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:56:05,656 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:56:05,657 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:56:35,160 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:56:35,160 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:57:04,663 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:57:04,663 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:57:34,169 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:57:34,169 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:58:03,672 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:58:03,672 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:58:33,177 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:58:33,177 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:59:02,682 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:59:02,683 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:59:32,190 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 17:59:32,191 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:00:01,694 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:00:01,694 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:00:31,198 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:00:31,198 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:00,701 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:00,701 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:30,205 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:30,205 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:59,708 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:01:59,709 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:02:29,213 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:02:29,213 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:02:58,716 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:02:58,716 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:03:28,219 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:03:28,219 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:03:57,721 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:03:57,722 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:04:27,225 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:04:27,225 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:04:56,732 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:04:56,732 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:05:26,239 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:05:26,239 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:05:33,626 INFO [capacityManagement] start correct usage
+
+2020-05-12 18:05:33,646 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 18:05:33,905 WARN clearConfigHistory start
+
+2020-05-12 18:05:55,742 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:05:55,742 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:06:25,245 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:06:25,245 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:06:54,748 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:06:54,748 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:07:24,252 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:07:24,252 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:07:53,755 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:07:53,755 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:08:23,260 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:08:23,260 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:08:35,119 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 11224 (D:\software\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\software\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 18:08:35,121 INFO The following profiles are active: standalone
+
+2020-05-12 18:08:37,417 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$aa5a2904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:09:11,512 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:09:11,516 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1a245833' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:09:11,523 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$cf2ecbb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:09:11,532 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:09:12,723 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 18:09:12,762 INFO Starting service [Tomcat]
+
+2020-05-12 18:09:12,763 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 18:09:12,780 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 18:09:12,896 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 18:09:12,896 INFO Root WebApplicationContext: initialization completed in 37717 ms
+
+2020-05-12 18:09:13,275 INFO Use Mysql as the driver
+
+2020-05-12 18:09:14,491 INFO Reflections took 50 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 18:09:14,554 INFO Reflections took 7 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 18:09:14,565 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 18:09:16,746 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 18:09:17,037 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 18:09:17,472 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 18:09:17,520 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42f48531, org.springframework.security.web.context.SecurityContextPersistenceFilter@45efc20d, org.springframework.security.web.header.HeaderWriterFilter@42e3ede4, org.springframework.security.web.csrf.CsrfFilter@10c626be, org.springframework.security.web.authentication.logout.LogoutFilter@5b444398, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67ab1c47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a3c96e3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a776e, org.springframework.security.web.session.SessionManagementFilter@75459c75, org.springframework.security.web.access.ExceptionTranslationFilter@328cf0e1]
+
+2020-05-12 18:09:17,654 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 18:09:17,698 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 18:09:17,853 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 18:09:18,111 INFO Started Nacos in 44.526 seconds (JVM running for 45.242)
+
+2020-05-12 18:09:18,111 INFO Nacos logs files: D:\software\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 18:09:18,114 INFO Nacos conf files: D:\software\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 18:09:18,114 INFO Nacos data files: D:\software\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 18:09:18,115 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 18:09:18,212 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 18:09:18,212 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 18:09:18,229 INFO Completed initialization in 17 ms
+
+2020-05-12 18:09:18,358 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:09:18,361 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:09:47,876 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:09:47,876 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:10:17,382 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:10:17,382 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:10:46,884 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:10:46,885 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:11:16,393 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:11:16,393 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:11:45,897 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:11:45,897 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:12:03,148 INFO Starting Nacos v1.2.1 on DESKTOP-88828A8 with PID 15940 (D:\software\nacos-server-1.2.1\nacos\target\nacos-server.jar started by 17519 in D:\software\nacos-server-1.2.1\nacos\bin)
+
+2020-05-12 18:12:03,152 INFO The following profiles are active: standalone
+
+2020-05-12 18:12:05,675 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$47895b0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:12:05,782 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:12:05,786 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4e5ed836' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:12:05,788 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6c5dfdbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:12:05,810 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 18:12:06,858 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 18:12:06,892 INFO Starting service [Tomcat]
+
+2020-05-12 18:12:06,893 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 18:12:06,905 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\OpenSSH\;"D:\Program Files\Java\jdk1.8.0_121\bin;D:\Program Files\Java\jdk1.8.0_121\jre\bin";C:\Users\17519\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\17519\AppData\Local\Programs\Python\Python38-32\;C:\Users\17519\AppData\Local\Microsoft\WindowsApps;C:\Users\17519\AppData\Roaming\npm;C:\Users\17519\AppData\Local\BypassRuntm;.]
+
+2020-05-12 18:12:07,009 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 18:12:07,009 INFO Root WebApplicationContext: initialization completed in 3773 ms
+
+2020-05-12 18:12:09,127 INFO Reflections took 55 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-05-12 18:12:09,183 INFO Reflections took 7 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-05-12 18:12:09,193 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-05-12 18:12:10,488 INFO Use Mysql as the driver
+
+2020-05-12 18:12:11,198 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 18:12:11,424 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 18:12:11,812 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-05-12 18:12:11,888 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a335fa8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b43529a, org.springframework.security.web.header.HeaderWriterFilter@1623134f, org.springframework.security.web.csrf.CsrfFilter@5ce33a58, org.springframework.security.web.authentication.logout.LogoutFilter@2783717b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b04476e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c260bdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f363cf5, org.springframework.security.web.session.SessionManagementFilter@485a3466, org.springframework.security.web.access.ExceptionTranslationFilter@546ccad7]
+
+2020-05-12 18:12:12,034 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 18:12:12,075 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 18:12:12,227 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 18:12:12,236 INFO Started Nacos in 11.199 seconds (JVM running for 12.01)
+
+2020-05-12 18:12:12,236 INFO Nacos logs files: D:\software\nacos-server-1.2.1\nacos\logs\
+
+2020-05-12 18:12:12,237 INFO Nacos conf files: D:\software\nacos-server-1.2.1\nacos\conf\
+
+2020-05-12 18:12:12,241 INFO Nacos data files: D:\software\nacos-server-1.2.1\nacos\data\
+
+2020-05-12 18:12:12,242 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 18:12:12,410 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 18:12:12,410 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 18:12:12,422 INFO Completed initialization in 12 ms
+
+2020-05-12 18:12:13,459 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:12:13,460 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:12:42,968 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:12:42,968 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:13:12,472 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:13:12,472 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:13:41,976 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:13:41,976 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:14:11,479 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:14:11,479 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:14:40,983 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:14:40,984 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:15:10,491 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:15:10,491 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:15:39,996 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:15:39,996 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:16:09,505 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:16:09,505 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:16:39,009 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:16:39,009 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:17:08,517 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:17:08,517 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:17:38,019 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:17:38,019 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:18:07,524 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:18:07,524 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:18:37,028 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:18:37,028 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:19:06,531 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:19:06,531 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:19:36,034 INFO listen config id:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:19:36,034 INFO listen config id 2:storage-service.ymlDEFAULT_GROUPstorage-serviceDEFAULT_GROUP
+
+2020-05-12 18:20:11,293 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:20:11,293 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:20:11,493 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:20:11,493 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:20:41,001 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:20:41,001 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:21:10,508 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:21:10,508 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:21:40,013 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:21:40,013 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:22:09,516 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:22:09,516 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:22:10,227 INFO [capacityManagement] start correct usage
+
+2020-05-12 18:22:10,241 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 18:22:10,481 WARN clearConfigHistory start
+
+2020-05-12 18:22:39,022 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:22:39,022 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:23:08,526 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:23:08,526 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:23:38,030 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:23:38,030 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:24:07,535 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:24:07,535 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:24:37,038 INFO listen config id:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+
+2020-05-12 18:24:37,038 INFO listen config id 2:storage-serviceDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6estorage-service-dev.ymlDEFAULT_GROUP9b0ab9a6-e1c3-4ec8-8a99-49a3ffba5d6e
+

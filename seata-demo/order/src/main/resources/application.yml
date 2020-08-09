@@ -1,0 +1,23 @@
+#server:
+#  port: 8282
+#spring:
+#  application:
+#    name: order-service
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#  profiles:
+#    include:
+#      - seata
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/order?useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
+#    platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#

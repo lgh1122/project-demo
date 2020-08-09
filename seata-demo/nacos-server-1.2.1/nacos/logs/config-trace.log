@@ -1,0 +1,5 @@
+2020-05-14 10:46:33,964|192.168.50.39|storage-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-05-14 10:46:34,040|192.168.50.39|storage-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-05-14 10:46:34,086|192.168.50.39|application-seata.yml|DEFAULT_GROUP|null|unknown|1589275945590|pull|ok|148448496|127.0.0.1
+2020-05-14 10:46:34,118|192.168.50.39|storage-service.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-05-14 10:46:34,130|192.168.50.39|storage-service-dev.yml|DEFAULT_GROUP|null|unknown|1589276512818|pull|ok|147881312|127.0.0.1
